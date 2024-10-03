@@ -1,0 +1,63 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2 {
+    color: #004085;
+}
+
+.header {
+    background: linear-gradient(rgba(0, 64, 133, 0.7), rgba(0, 64, 133, 0.7)), url('header-bg.jpg') center/cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.headline h1 {
+    font-size: 3rem;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+.headline p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-links {
+    margin-top: 30px;
+}
+
+.contact-button {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #218838;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(50px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
